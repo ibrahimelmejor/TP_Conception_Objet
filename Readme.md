@@ -16,14 +16,14 @@ Dans ce patron, le sujet observable se voit attribuer une collection d'observate
 
 Ainsi, l'observé n'est pas responsable des changements qu'il entraîne sur les observateurs.
 
-![](../images/Observer.svg.png)
+![](images/Observer.svg.png)
 
 ## Notre cas:
 Dans notre cas nous avons deux observateurs MailLabel et CounterObserver qui pointent tout les deux sur l’observé qui est MailBox, l’objectif c’est que à chaque fois que la boite mail reçoit un message, MailLabel nous affiche le corps du message et CounterObserver le nombre total des mails reçu.
  
 Résultat:
 
-![](../images/CaptureTP0.PNG)
+![](images/CaptureTP0.PNG)
 
 
 # TP 02
@@ -42,17 +42,17 @@ En pratique, le modèle de conception visiteur est réalisé de la façon suivan
 
 En pratique un visiteur permet d'obtenir le même effet que d'ajouter une nouvelle méthode virtuelle à un ensemble de classes qui ne le permet pas.
 
-![](../images/Visitor_pattern_uml.svg.png)
+![](images/Visitor_pattern_uml.svg.png)
 
 Notre cas: 
 
 Fichier fournie:
 
-![](../images/test.PNG)
+![](images/test.PNG)
 
 Résultat du pretty printer:
 
-![](../images/prettyPrinter.PNG)
+![](images/prettyPrinter.PNG)
 
 
 # TP 03 
@@ -99,4 +99,4 @@ Cela va permettre d'avoir un système qui va être plus performant car il va êt
 
 voilà le diagramme de classe du tp:
 
-![](../images/MDI_tp3.jpg)
+![](images/MDI_tp3.jpg)
