@@ -1,0 +1,26 @@
+Question 1:
+
+
+
+- Pas besoin de faire 2 classes de Pizza, une seule suffit en ajoutant un paramètre qui définit la taille.
+- Il y a des classes inutiles, par exemple la classe PointGPS peut être enlevée en ajoutant 3 attributs dans la classe Collaborateur.
+- Il faudrait avoir des informations sur le collaborateur, par exemple si il est occupé à livrer ou non.
+- Une information importante à savoir pour le système (la boîte) est l'état des commandes, il faut donc le rajouter;
+- La classe MoyendeTransport peut être incluse dans la classe Collaborateur, c'est plus simple.
+
+
+Question 2:
+
+Le pattern decorator est une alternative à l'héritage. Ce dernier, si il est trop utilisé, peut vite amener des programmes très complexes et on peut s'y perdre facilement.
+Il est par conséquent beaucoup plus compliqué de changer certaines fonctions par exemple.
+
+
+
+Question 3:
+Le pattern state permet d'être bien plus souple car on pourra appeler des méthodes différentes selon l'état de la pizza et donc de la commande.
+Cela va permettre d'avoir un système qui va être plus performant car il va être adapté aux différentes situations.
+
+
+
+
+
