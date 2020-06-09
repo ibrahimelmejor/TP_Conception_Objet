@@ -1,3 +1,7 @@
+## Remarque
+
+- Le TP 2  requiert une version JDK supérieure à la version 8 pour fonctionner.
+
 # TP 01
 
 ## Présentation:
